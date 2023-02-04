@@ -1,8 +1,4 @@
-h1 {
-    color: white;
-    background-color: black;
-}
-h2 {
+h1, h2 {
     color: white;
     background-color: black;
 }
