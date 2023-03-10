@@ -1,0 +1,24 @@
+/*.mainSection {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.mainSection.first {
+    font-size: 26px;
+}
+.two ~ li {
+    color: red;
+}*/
+/*
+.two ~ li {
+    color: red;
+}*/
+.flex-cont {
+    height: 300px;
+    background: black;
+    display: flex;
+}
+.flex-item {
+    height: 900px;
+    color: brown;
+}
