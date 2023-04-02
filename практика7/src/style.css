@@ -1,14 +1,19 @@
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
 body {
     margin: 0;
     height: 100%;
+    width: 100%;
     color: white;
     background-image: url('./img/background.jpg');
     background-size: cover;
+    position: fixed;
 }
-
-/* .page {
-    background-image: url('./src/img/background.jpg');
-} */
 .content {
     margin: 0;
     width: auto;
@@ -62,20 +67,10 @@ input[type=text] {
     background-color: rgb(255, 126, 126);
     bottom: 0;
     left: 0;
-    position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .footer h2 {
     margin: 0;
-}
-
-@media (max-width: 400px) {
-    body {
-        margin: 0;
-        height: 100%;
-        color: white;
-        background-color: red;        
-    }
 }
