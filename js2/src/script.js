@@ -22,13 +22,13 @@ function getRemainder(a) {
     let otv = b % c;
     return otv.toString()
 }
-
-number2.addEventListener("input", () => {
-    result2.textContent = getRemainder(number2.value)
-})
 number21.addEventListener("input", () => {
     num2 = number21.value;
 })
+number2.addEventListener("input", () => {
+    result2.textContent = getRemainder(number2.value)
+})
+
 
 //3---------------
 const number3 = document.querySelector('#inputNumb3')
